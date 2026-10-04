@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "Simulation code and results: operating characteristics of an analysis plan for an AI-assisted debugging experiment"
+version: "1.0.0"
+date-released: "2026-MM-DD"
+license: MIT
+authors:
+  - family-names: "Kozhagul"
+    given-names: "Aidos"
+    affiliation: "Kazakh National Women's Pedagogical University"
+    orcid: "https://orcid.org/0009-0002-3294-8958"
+repository-code: "https://github.com/a1d0s-3l1u45/ai-debugging-simulation"
+keywords:
+  - Monte Carlo simulation
+  - power analysis
+  - programming education
+  - generative AI
+  - debugging

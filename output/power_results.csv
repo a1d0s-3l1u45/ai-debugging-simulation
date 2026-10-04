@@ -1,0 +1,6 @@
+﻿Hypothesis,Unadjusted power,Holm-adjusted power
+H1a: EG faster on explicit defects,0.98,0.96
+H2a: EL lower in EG,0.56,0.34
+H2b: GL lower in EG,0.28,0.18
+H3: Transfer higher in CG,0.74,0.66
+"H1b: Equivalence (TOST, ±0.25) confirmed",0.4,

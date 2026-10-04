@@ -1,0 +1,21 @@
+﻿variable,description,scale
+student_id,De-identified ID (ID_01...ID_40),string
+pair_id,Matched pair number (by Pre-test),1–20
+group,"Group: CG — control, EG — experimental",CG/EG
+pre_score,Baseline test (Pre-test),"0–20, integer"
+protocol_violation,Prompting protocol violation (from logs),0/1
+ai_prompts_n,Number of AI prompts during session (EG only),integer
+SR_expl_n / SR_hid_n,Number of solved explicit / hidden tasks,0–2
+SR_expl / SR_hid,Proportion of solved explicit / hidden tasks,"0, 0.5, 1"
+attempts_total,Total pytest runs during session,integer
+"IL1–IL2, EL1–EL3, GL1–GL3",Adapted Leppink survey items,"0–10, integer"
+IL / EL / GL,Subscale item average,0–10
+transfer_score,Transfer test score (without AI),"0–10, integer"
+task,"T1, T2 — explicit defects; T3, T4 — hidden semantic defects",T1–T4
+task_type,explicit — explicit defect; hidden — hidden semantic defect,string
+order_position,Order position in which student started the task,1–4
+attempted,Whether student started the task (0 — ran out of time),0/1
+time_sec / time_min,Time from opening file to success (or abandonment/session end),sec / min
+solved,Task solved (pytest 100%); 0 = censored,0/1
+ended_by,solved / abandoned / session_end / not_reached,string
+synthetic,"LABEL: synthetic data, not empirical",True
